@@ -8,7 +8,9 @@
 
 - In order to execute on the files within the sub folder run this command in the terminal:
 
-    terraform init/plan/apply --var-file=<folder_name>/<file_name>
+    terraform init --var-file=<folder_name>/<file_name>
+    terraform plan --var-file=<folder_name>/<file_name>
+    terraform apply --var-file=<folder_name>/<file_name>
 
 
 
