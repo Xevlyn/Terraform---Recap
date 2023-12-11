@@ -6,7 +6,7 @@
 - What ever is done in the main folder say I.P.A is run - init, plan and apply 
  works on all the files in the main folder and not the sub folder within.
 
-- In order to execute on the files within the sub folder run this command
+- In order to execute on the files within the sub folder run this command in the terminal:
 
     terraform init/plan/apply --var-file=<folder_name>/<file_name>
 
